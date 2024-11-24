@@ -6,7 +6,7 @@ import { ConsumoAguaModule } from './consumo_agua/consumo_agua.module';
 
 @Module({ 
   imports: [
-    MongooseModule.forRoot('mongodb+srv://cellycruz:1234@webmobile.yxfug.mongodb.net/'),
+    MongooseModule.forRoot(''),
     ConsumoAguaModule
   ],
   controllers: [AppController],
